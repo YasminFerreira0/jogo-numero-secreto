@@ -2,8 +2,8 @@
 
 :root {
     --font-family: 'Prosto One', cursive;
-    --bg-color: #3F0071;
-    --primary-color: #FB2576;
+    --bg-color: #CFF5E7;
+    --primary-color: #0D4C92;
 }
 
 body {
@@ -17,7 +17,7 @@ body {
     font-family: var(--font-family);
     margin: 0;
     text-align: center;
-    text-shadow: 2px 2px #000000;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 h1 {
@@ -42,4 +42,20 @@ h3 {
     font-size: 4em;
     margin: 20px;
     padding: 10px;
+}
+
+.btn-jogar{
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-size: 1.2em;
+    background-color: var(--primary-color);
+    box-shadow: 2px 2px 8px #000000;
+    cursor: pointer;
+}
+
+.btn-jogar:hover {
+    color: #ffffff;
+    box-shadow: 2px 2px 8px #ffffff;
 }
